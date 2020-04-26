@@ -14,6 +14,6 @@ public class Main {
         Map<String, Integer> countByCity = new HashMap<>(parser.countByCity(list));
         System.out.println(countByCity);
         Map<String, List<RealEstate>> groupByCity = new HashMap<>(parser.groupByCity(list));
-        System.out.println(groupByCity);
+        System.out.println(groupByCity.keySet());
     }
 }
